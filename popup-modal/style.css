@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    border-radius: 4px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.popup-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none; /*ilk etapta butona tıklamadan önce sayfada görünmeyecek. */ 
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-container.active{
+    display: flex;
+}
+
+
+.popup{
+    background-color: #fff;
+    padding: 2rem;
+    width: 500px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    width: 500px;
+    position: relative;
+}
+
+.popup button{
+    background-color: white;
+    color: rebeccapurple;
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
