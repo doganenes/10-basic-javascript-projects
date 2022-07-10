@@ -1,2 +1,3 @@
 # Landing Page
-![view](https://user-images.githubusercontent.com/86846812/178144900-b044b5a4-5d6d-4f3b-a64e-515a74e731ec.png)
+![view](https://user-images.githubusercontent.com/86846812/178145224-31f354a4-f025-4db1-8dd2-af5686aa59d8.png)
+
