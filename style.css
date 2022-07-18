@@ -84,7 +84,6 @@ h1 {
 }
 
 .split.left::before {
-
     content: '';
     position: absolute;
     width: 100%;
